@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kM-lt-9gi">
+                                <rect key="frame" x="142" y="512.5" width="130" height="22"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BRAIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTX-KJ-PL3">
+                                <rect key="frame" x="137" y="550.5" width="140" height="50"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="brain.head.profile" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aNB-O6-28y">
+                                <rect key="frame" x="103.5" y="287.5" width="207" height="211"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aNB-O6-28y" secondAttribute="height" multiplier="1:1" id="L3X-a8-0Qb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.034496291450856302" green="0.84195265894980476" blue="0.86078917980194092" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="aNB-O6-28y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9g3-Zj-ldo"/>
+                            <constraint firstItem="7kM-lt-9gi" firstAttribute="top" secondItem="aNB-O6-28y" secondAttribute="bottom" constant="16" id="IfX-ds-L2G"/>
+                            <constraint firstItem="7kM-lt-9gi" firstAttribute="centerX" secondItem="aNB-O6-28y" secondAttribute="centerX" id="SkN-Jr-MoM"/>
+                            <constraint firstItem="XTX-KJ-PL3" firstAttribute="centerX" secondItem="7kM-lt-9gi" secondAttribute="centerX" id="kwW-D0-k6T"/>
+                            <constraint firstItem="aNB-O6-28y" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="mwi-kO-ae5"/>
+                            <constraint firstItem="aNB-O6-28y" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-55" id="xqO-s0-dMn"/>
+                            <constraint firstItem="XTX-KJ-PL3" firstAttribute="top" secondItem="7kM-lt-9gi" secondAttribute="bottom" constant="16" id="yfh-oH-u5C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brain.head.profile" catalog="system" width="114" height="128"/>
+    </resources>
+</document>
