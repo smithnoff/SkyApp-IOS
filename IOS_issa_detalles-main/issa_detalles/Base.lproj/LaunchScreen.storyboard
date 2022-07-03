@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="issa detalles logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="g6X-jc-nrh">
+                                <rect key="frame" x="40" y="118" width="334" height="345"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g6X-jc-nrh" secondAttribute="height" multiplier="334:345" id="xqC-l3-NYQ"/>
+                                </constraints>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="WFH-AY-msy">
+                                <rect key="frame" x="0.0" y="861.5" width="414" height="2.5"/>
+                                <color key="progressTintColor" systemColor="systemBackgroundColor"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62b-vR-Fnl">
+                                <rect key="frame" x="90" y="464" width="234" height="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.074509803921568626" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g6X-jc-nrh" secondAttribute="trailing" constant="40" id="1mT-hg-sfP"/>
+                            <constraint firstItem="62b-vR-Fnl" firstAttribute="centerX" secondItem="WFH-AY-msy" secondAttribute="centerX" id="C3c-sr-2zR"/>
+                            <constraint firstItem="g6X-jc-nrh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Gph-Y9-oyv"/>
+                            <constraint firstItem="g6X-jc-nrh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="MBn-8M-6lW"/>
+                            <constraint firstItem="62b-vR-Fnl" firstAttribute="centerX" secondItem="g6X-jc-nrh" secondAttribute="centerX" id="PFm-Bn-gwH"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="WFH-AY-msy" secondAttribute="bottom" constant="-1" id="ifH-fF-sAS"/>
+                            <constraint firstItem="62b-vR-Fnl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="oks-H5-Mhh"/>
+                            <constraint firstItem="62b-vR-Fnl" firstAttribute="top" secondItem="g6X-jc-nrh" secondAttribute="bottom" constant="1" id="qIa-Q8-ZBZ"/>
+                            <constraint firstItem="WFH-AY-msy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="see-6C-112"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="issa detalles logo-1" width="2084" height="2084"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
