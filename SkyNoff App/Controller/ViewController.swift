@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     @IBAction func loginButtom(_ sender: Any) {
         validateEmpty()
         if validate == true{
-            print("Ingreso a valida si existe en bd")
+            messageEmptyFields(enviar:"Ingresaste")
         }else{
         
         }
