@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var forgotBut: UIButton!
     @IBOutlet weak var loginBut: UIButton!
     @IBOutlet weak var signupBut: UIButton!
+    
     var validate = false
    
     override func viewDidLoad() {
