@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AD150C287A25D3003C4024 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F597222287291D500A7D471 /* LaunchScreen.storyboard */,
+				6F59721D287291D400A7D471 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6F59720B287291D400A7D471 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +71,11 @@
 		6F597216287291D400A7D471 /* SkyNoff App */ = {
 			isa = PBXGroup;
 			children = (
+				14AD150C287A25D3003C4024 /* View */,
 				6F59722D28748DBF00A7D471 /* Controller */,
 				6F597217287291D400A7D471 /* AppDelegate.swift */,
 				6F597219287291D400A7D471 /* SceneDelegate.swift */,
-				6F59721D287291D400A7D471 /* Main.storyboard */,
 				6F597220287291D500A7D471 /* Assets.xcassets */,
-				6F597222287291D500A7D471 /* LaunchScreen.storyboard */,
 				6F597225287291D500A7D471 /* Info.plist */,
 			);
 			path = "SkyNoff App";
