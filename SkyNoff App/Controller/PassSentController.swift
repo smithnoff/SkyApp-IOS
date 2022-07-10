@@ -10,6 +10,7 @@ import UIKit
 class PassSentController: UIViewController {
 
     @IBAction func logIn(_ sender: Any) {
+       emailVal = true
         let logIn = self.storyboard?.instantiateViewController(withIdentifier: "PrincipalController") as! ViewController
             self.navigationController?.pushViewController(logIn, animated: true)
     }

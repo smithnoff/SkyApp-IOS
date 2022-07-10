@@ -20,11 +20,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var forgotBut: UIButton!
     @IBOutlet weak var loginBut: UIButton!
     @IBOutlet weak var signupBut: UIButton!
+    var textEmail:String?
     var validate = false
    
     override func viewDidLoad() {
         super.viewDidLoad()
         buttomRadius()
+        if emailVal == true{
+           emailTexfield.text = emailSentPass
+           emailVal = false
+        emailSentPass = nil
+        }
     }
 
     @IBAction func forgotButtom(_ sender: Any) {

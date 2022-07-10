@@ -16,6 +16,7 @@ class ForgotPassViewController: UIViewController {
         validateEmpty()
         if validate == true{
            //messageEmptyFields(enviar:"Se ha enviado un correo para poder restablecer su contraseña")
+            emailSentPass = emailTextForgot.text
             let sentPass = self.storyboard?.instantiateViewController(withIdentifier: "PassSent") as! PassSentController
                 self.navigationController?.pushViewController(sentPass, animated: true)
         }
